@@ -1,0 +1,122 @@
+body{
+    text-transform: none;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column; /* avec ceci mn body sera en ordre*/
+
+    transition: background-color 0.5s ease;
+    
+}
+h1{
+    text-align: center;
+    text-transform: unset;
+    border: 1px solid rgb(30, 32, 32);
+    padding: 10px 10px 10px 10px;
+    border-radius: 30px;
+    background-color: rgb(201, 203, 202);
+    text-decoration: double;
+    
+
+}     
+
+.element {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+
+
+.image img{
+    border-radius: 40%;
+    margin-left: 20px;
+}
+
+
+p{
+    margin: 0 0 5px;
+}
+.all{
+    background-color: rgb(201, 203, 202);
+    border-radius: 25%;
+    border: 1px solid rgb(30, 32, 32);
+    text-align: center;
+    margin-top: 30px;
+}
+.icones{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.icones a{
+text-decoration: none;
+padding: 10px;
+background-color: aliceblue;
+margin: 10px;
+border-radius: 50%;
+
+    
+}
+.icones a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0,9;
+}
+.icones a:hover{
+    background-color: black;
+    transition: 0,5s;
+}
+.icones a:hover i{
+    color: aliceblue;
+    transition: 0,5s;
+}
+
+.email{
+    margin-top: 3%;
+    text-align: center;
+   
+}
+.email a{
+    font-size: 16px;
+    padding-top: 10px;
+    color: #333;
+}
+.email a:hover{
+    color: white;
+}
+
+p
+{
+    margin-top: 5px;
+    text-align: center;
+}
+
+button {
+    background-color: gray; /* Couleur de fond */
+    border: none; /* Pas de bordure */
+    color: white; /* Couleur du texte */
+    padding: 10px ; /* Espace intérieur */
+    text-align: center; /* Alignement du texte */
+    text-decoration: none; /* Pas de soulignement */
+    display: inline-block; /* Affichage en ligne */
+    font-size: 16px; /* Taille de la police */
+    margin: 4px 2px; /* Marges */
+    cursor: pointer; /* Curseur en forme de main */
+    border-radius: 8px; /* Bords arrondis */
+}
+
+button:hover {
+  
+    background-color: #45a049; /* Couleur de fond au survol */
+}
+div.mycontainer {
+    width:100%;
+    overflow:auto;
+  }
+  div.mycontainer div {
+    width:33%;  
+    float:left;
+  }
